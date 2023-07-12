@@ -1,0 +1,74 @@
+.full_content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon_image_box{
+    display: flex;
+}
+
+.pokemon_image_box img{
+    width: 120px;
+}
+
+.widget_box{
+    background-image: url(..\..\assets\Image\App_image.png);
+    width: 960px;
+    height: 540px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.screen_box{
+    width: 530px;
+    height: 300px;
+    background-color: #ffffff;
+    border: solid black 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.pokemon_image_box{
+    height: 100%;
+    flex-grow: 2;
+}
+
+.pokemon_info_box{
+    height: 100%;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon_type_box{
+    display: flex;
+}
+
+.button_box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.button{
+    display: flex;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button img{
+    width: 100%;
+}
+
+
