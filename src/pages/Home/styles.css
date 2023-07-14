@@ -55,10 +55,56 @@
     flex-grow: 3;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.pokemon_type_box{
+section{
+    padding-bottom: 15px;
+}
+
+.label{
+    padding: 5px 13px;
+    font-family: "PokemonGB";
+}
+
+.pokemon_name_box{
+    padding: 5px 13px;
+    font-family: "PokemonGB"
+}
+
+.pokemon_name_box::first-letter, .type_1_box::first-letter, .type_2_box::first-letter{
+    text-transform: uppercase;
+}
+
+.pokemon_number_box{
+    padding: 5px 13px;
+    font-family: "PokemonGB"
+}
+
+.pokemon_type_section{
+    padding-left: 13px;
+    padding-top: 5px;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.type_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.label_type{
+    padding-bottom: 5px;
+    font-family: "PokemonGB";
+}
+
+.type_1_box{
+    font-family: "PokemonGB";
+}
+
+.type_2_box{
+    font-family: "PokemonGB";
 }
 
 .button_box{
@@ -77,4 +123,26 @@
 
 .button img{
     width: 100%;
+}
+
+.normal{
+    background-color: #c2c3c0;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 4px #000000 solid;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-shadow: #000000;
+}
+
+.fire{
+    background-color: red;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 4px #000000 solid;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-shadow: #000000;
 }
