@@ -1,4 +1,4 @@
-**<h1 align="center">PokeDraft</h1>**
+**<h1 align="center">PokeRaffle</h1>**
 
 ![preview](./.github/preview_start.jpg)
 

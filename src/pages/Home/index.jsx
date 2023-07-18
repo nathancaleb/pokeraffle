@@ -169,7 +169,7 @@ export function Home() {
       <main className='full_content'>
         <div className="title_box">
           <h1>
-            <img src="src\assets\Image\pokedraft_logo_official.png" alt="Pokedraft Logo" />
+            <img src="src\assets\Image\pokeraffle_logo_official.png" alt="PokeRaffle Logo" />
           </h1>
         </div>
         <div className="app_raffle">
@@ -214,9 +214,6 @@ export function Home() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="raffle_button_box">
-            <div className="raffle_button"></div>
           </div>
         </div>
       </main>

@@ -54,7 +54,7 @@
     background-color: #ffffff;
     border: solid black 10px;
     background-size: contain;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     display: flex;
 }
 
@@ -97,24 +97,24 @@
 
 .pokemon_info_box{
     height: 100%;
-    flex-grow: 3;
+    width: 50%;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 section{
     padding-bottom: 15px;
+    padding-left: 13px;
 }
 
 .label{
-    padding: 5px 13px;
     font-family: "PokemonGB";
 }
 
 .pokemon_name_box{
-    padding: 5px 13px;
-    font-family: "PokemonGB"
+    font-family: "PokemonGB";
 }
 
 .pokemon_name_box::first-letter, .type_1_box::first-letter, .type_2_box::first-letter{
@@ -122,13 +122,10 @@ section{
 }
 
 .pokemon_number_box{
-    padding: 5px 13px;
     font-family: "PokemonGB"
 }
 
 .pokemon_type_section{
-    padding-left: 13px;
-    padding-top: 5px;
     display: flex;
     flex-direction: column;
     gap: 20px;
