@@ -169,7 +169,7 @@ export function Home() {
       <main className='full_content'>
         <div className="title_box">
           <h1>
-            <img src="src\assets\Image\pokeraffle_logo_official.png" alt="PokeRaffle Logo" />
+            <img src="src/assets/Image/pokeraffle_logo_official.png" alt="PokeRaffle Logo" />
           </h1>
         </div>
         <div className="app_raffle">
@@ -178,7 +178,7 @@ export function Home() {
               <div className="screen_box">
               {
                 hideSplash?<div className="splash_screen">
-                  <img src="src\assets\Image\pokeball_icon.png" alt="desenho de uma pokebola" />
+                  <img src="src/assets/Image/pokeball_icon.png" alt="desenho de uma pokebola" />
                   <label className="splash_text">clique no botao para sortear um pokémon!!!</label>
                 </div>:null
               }
@@ -210,7 +210,7 @@ export function Home() {
               </div>
               <div className="button_box">
                 <div type="button" className="button" onClick={raffleNumber}>
-                  <img src="src\assets\Image\button_image.png" alt="botão cinza com desenho de uma pokebola" />
+                  <img src="src/assets/Image/button_image.png" alt="botão cinza com desenho de uma pokebola" />
                 </div>
               </div>
             </div>
