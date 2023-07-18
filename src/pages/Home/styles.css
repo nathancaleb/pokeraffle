@@ -1,3 +1,24 @@
+:root{
+    --normal: #a0a2a0;
+    --fighting: #fe8000;
+    --flying: #82baef;
+    --poison: #913fcc;
+    --ground: #93501a;
+    --rock: #b1ab82;
+    --bug: #93a312;
+    --ghost: #703f70;
+    --steel: #61a2b8;
+    --fire: #e72324;
+    --water: #2481ef;
+    --grass: #41a324;
+    --electric: #fac100;
+    --psychic: #ee3f7b;
+    --ice: #3cd9fe;
+    --dragon: #4f60e3;
+    --dark: #4e3f3c;
+    --fairy: #f070f0;
+}
+
 .full_content{
     width: 100vw;
     height: 100vh;
@@ -35,6 +56,30 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
+}
+
+.splash_screen{
+    position:absolute;
+    background-color: #ffffff;
+    width: 510px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.splash_screen img{
+    width: 30%;
+}
+
+.splash_text{
+    font-family: "PokemonGB";
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px;
 }
 
 .pokemon_image_box{
@@ -101,10 +146,24 @@ section{
 
 .type_1_box{
     font-family: "PokemonGB";
+    color: #ffffff;
+    border-radius: 10px;
+    border: 4px #000000 solid;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-shadow: #000000;
 }
 
 .type_2_box{
     font-family: "PokemonGB";
+    color: #ffffff;
+    border-radius: 10px;
+    border: 4px #000000 solid;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    text-shadow: #000000;
 }
 
 .button_box{
@@ -126,23 +185,74 @@ section{
 }
 
 .normal{
-    background-color: #c2c3c0;
-    color: #ffffff;
-    border-radius: 10px;
-    border: 4px #000000 solid;
-    padding: 5px;
-    width: fit-content;
-    height: fit-content;
-    text-shadow: #000000;
+    background-color: var(--normal);
+    
+}
+
+.fighting{
+    background-color: var(--fighting);
+}
+
+.flying{
+    background-color: var(--flying);
+}
+
+.poison{
+    background-color: var(--poison);
+}
+
+.ground{
+    background-color: var(--ground);
+}
+
+.rock{
+    background-color: var(--rock);
+}
+
+.bug{
+    background-color: var(--bug);
+}
+
+.ghost{
+    background-color: var(--ghost);
+}
+
+.steel{
+    background-color: var(--steel);
 }
 
 .fire{
-    background-color: red;
-    color: #ffffff;
-    border-radius: 10px;
-    border: 4px #000000 solid;
-    padding: 5px;
-    width: fit-content;
-    height: fit-content;
-    text-shadow: #000000;
+    background-color: var(--fire);
+}
+
+.water{
+    background-color: var(--water);
+}
+
+.grass{
+    background-color: var(--grass);
+}
+
+.electric{
+    background-color: var(--electric);
+}
+
+.psychic{
+    background-color: var(--psychic);
+}
+
+.ice{
+    background-color: var(--ice);
+}
+
+.dragon{
+    background-color: var(--dragon);
+}
+
+.dark{
+    background-color: var(--dark);
+}
+
+.fairy{
+    background-color: var(--fairy);
 }
