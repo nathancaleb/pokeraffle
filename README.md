@@ -50,11 +50,11 @@ A aplicação sorteia um Pokémon, apresentando imagem, nome, número e um tipo 
 
 ---
 
-<!-- **<h2>PROJETO</h2>**
+**<h2>PROJETO</h2>**
 
-[Clique aqui para acessar o projeto;](https://nathancaleb.github.io/nlw-setup/)
+[Clique aqui para acessar o projeto;](https://nathancaleb.github.io/pokeraffle/)
 
---- -->
+---
 
 **<h2>CONTATO</h2>**
 
