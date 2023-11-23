@@ -7,7 +7,7 @@ import pokeballImage from "../../assets/Image/pokeball_icon.png";
 import buttonImage from "../../assets/Image/button_image.png";
 
 export function Home() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
   const [pokemon, setPokemon] = useState({ name:"", picture: "", number: "", type:""})
   const [type2, setType2] = useState({ type2:""})
   const [showType2, setShowType2]=useState(true);
@@ -129,8 +129,6 @@ export function Home() {
   function splashScreenTest(){
       if(hideSplash == true){
         setHideSplash(false);
-      }
-      else{
       }
   }
 

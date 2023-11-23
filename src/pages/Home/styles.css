@@ -22,6 +22,7 @@
 .full_content{
     width: 100vw;
     height: 100vh;
+    background-color: #0c0d0f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +52,7 @@
 .screen_box{
     width: 530px;
     height: 300px;
-    background-color: #ffffff;
+    background-color: #f6fdff;
     border: solid black 10px;
     background-size: contain;
     /* background-repeat: no-repeat; */
@@ -60,7 +61,7 @@
 
 .splash_screen{
     position:absolute;
-    background-color: #ffffff;
+    background-color: #f6fdff;
     width: 510px;
     height: 280px;
     display: flex;
